@@ -1,0 +1,97 @@
+.addButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: rgba(216, 112, 147, 0.015);
+    /* color: #aeaeae; */
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.114);
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 700px;
+    max-height: 700px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 25px;
+    }
+    &::-webkit-scrollbar-track {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background: rgb(255, 247, 249);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #b4b4b4;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: #848484;
+    }
+}
+.clientContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-content: start;
+    justify-content: center;
+    grid-gap: 10px;
+    text-decoration: none;
+    width: 80vw;
+    border-radius: 15px;
+    overflow-x: hidden;
+    /* grid-auto-flow: dense; */
+    min-height: 720px;
+    max-height: fit-content;
+    scrollbar-width: none;
+    padding-bottom: 1rem;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        width: 10px;
+        border-radius: 25px;
+    }
+    &::-webkit-scrollbar-track {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: rgb(255, 247, 249);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #b4b4b4;
+        border-radius: 10px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: #848484;
+    }
+}
+
+.productContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productContainerClient {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media screen and (min-width: 400px) {
+    .productContainerClient {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} */

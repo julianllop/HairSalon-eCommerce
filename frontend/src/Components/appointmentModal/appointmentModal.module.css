@@ -1,0 +1,16 @@
+.modalContainer {
+    width: 100%;
+}
+.modal:focus {
+    outline: none;
+}
+
+.span {
+    color: palevioletred;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+/* @media screen and (max-width: 400px) {
+    .modal {
+        width: 110px;
+    }
+} */

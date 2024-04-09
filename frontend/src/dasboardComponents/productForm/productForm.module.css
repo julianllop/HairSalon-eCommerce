@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.error {
+    padding: 0;
+    margin: 0;
+    color: crimson;
+    text-align: start;
+    font-size: small;
+    text-wrap: wrap;
+}

@@ -1,0 +1,25 @@
+.dashboardImage {
+    width: 180px;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: rgba(165, 54, 91, 0.8);
+}
+
+.clientImage {
+    width: 250px;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+    color: rgba(165, 54, 91, 0.8);
+}
+
+@media screen and (max-width: 400px) {
+    .clientImage {
+        width: 150px;
+        border-radius: 10px;
+        aspect-ratio: 1/1;
+        /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); */
+        color: rgba(165, 54, 91, 0.8);
+    }
+}

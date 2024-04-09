@@ -1,0 +1,10 @@
+export const CLEAR_STATE = "CLEAR_STATE";
+
+export const GET_PRODUCTS = "GET_PRODUCTS";
+export const GET_PRODUCT = "GET_PRODUCT";
+export const UPDATE_PRODUCT = "UPDATE_PRODUCT";
+export const DELETE_PRODUCT = "DELETE_PRODUCT";
+export const DELETE_PRODUCTS = "DELETE_PRODUCTS";
+export const CREATE_PRODUCT = "CREATE_PRODUCT";
+export const PRODUCT_DETAIL = "PRODUCT_DETAIL";
+export const GET_BY_NAME = "GET_BY_NAME";

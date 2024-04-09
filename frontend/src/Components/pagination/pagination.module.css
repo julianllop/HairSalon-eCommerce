@@ -1,0 +1,185 @@
+@media screen and (max-width: 480px) {
+    .Pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 0.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .current {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(216, 112, 147, 0.183);
+        border: 2px solid rgba(216, 112, 147);
+        border-radius: 5px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: x-small;
+        border-radius: 25px;
+        width: 10%;
+        height: 25px;
+    }
+
+    .current:hover {
+        cursor: pointer;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: x-small;
+        width: 10%;
+        height: 25px;
+    }
+
+    .btnDisabled {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: x-small;
+        cursor: default;
+        width: 10%;
+        height: 25px;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        transform: scale(0.9);
+        background-color: rgba(216, 112, 147);
+        color: rgb(255, 218, 230);
+        transition: all 150ms;
+    }
+
+    .direction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: x-small;
+
+        padding: 10px;
+        cursor: pointer;
+        width: 15%;
+        height: 25px;
+    }
+
+    .direction:hover {
+        transform: scale(0.98);
+        background-color: rgba(216, 112, 147);
+        color: rgb(255, 218, 230);
+        transition: all 150ms;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .Pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 0.2em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .current {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(216, 112, 147, 0.183);
+        border: 2px solid rgba(216, 112, 147);
+        border-radius: 5px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: 13px;
+        border-radius: 25px;
+        width: 5%;
+        height: 30px;
+    }
+
+    .current:hover {
+        cursor: pointer;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: 13px;
+        width: 5%;
+        height: 30px;
+    }
+
+    .btnDisabled {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 1px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: 13px;
+        cursor: default;
+        width: 5%;
+        height: 30px;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        transform: scale(0.9);
+        background-color: rgba(216, 112, 147);
+        color: rgb(255, 218, 230);
+        transition: all 150ms;
+    }
+
+    .direction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid rgba(216, 112, 147);
+        border-radius: 25px;
+        color: rgba(216, 112, 147);
+        font-weight: bold;
+        font-size: 13px;
+
+        padding: 10px;
+        cursor: pointer;
+        width: 7%;
+        height: 30px;
+    }
+
+    .direction:hover {
+        transform: scale(0.98);
+        background-color: rgba(216, 112, 147);
+        color: rgb(255, 218, 230);
+        transition: all 150ms;
+    }
+}
