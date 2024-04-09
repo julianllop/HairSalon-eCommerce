@@ -18,6 +18,11 @@ Developed using the PERN stack (PostgreSQL, Express, React, and Node.js). It all
 - Express.js
 - PostgreSQL
 - Sequelize
+- Material UI
+- Stripe
+- Redux
+- Dayjs
+- Axios
 
 ## Contributing:
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
